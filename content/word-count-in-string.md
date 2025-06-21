@@ -2,7 +2,7 @@
 title: Word-Count-In-String
 date: 2025-06-21
 author: Your Name
-cell_count: 2
+cell_count: 3
 score: 0
 ---
 
@@ -20,6 +20,19 @@ for word in words:
 print("Word Frequencies:")
 for word, count in word_count.items():
     print(f"{word}: {count}")
+
+```
+
+    Enter a sentence:  aruna varsha
+    
+
+    Word Frequencies:
+    aruna: 1
+    varsha: 1
+    
+
+
+```python
 
 ```
 

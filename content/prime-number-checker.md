@@ -2,7 +2,7 @@
 title: Prime-Number-Checker
 date: 2025-06-21
 author: Your Name
-cell_count: 2
+cell_count: 3
 score: 0
 ---
 
@@ -23,6 +23,17 @@ if is_prime(num):
     print(f"{num} is a Prime number!")
 else:
     print(f"{num} is not a Prime number.")
+
+```
+
+    Enter a number:  7
+    
+
+    7 is a Prime number!
+    
+
+
+```python
 
 ```
 

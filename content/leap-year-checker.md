@@ -2,7 +2,7 @@
 title: Leap-Year-Checker
 date: 2025-06-21
 author: Your Name
-cell_count: 2
+cell_count: 3
 score: 0
 ---
 
@@ -20,6 +20,11 @@ if is_leap_year(year):
     print(f"{year} is a leap year!")
 else:
     print(f"{year} is not a leap year.")
+
+```
+
+
+```python
 
 ```
 
