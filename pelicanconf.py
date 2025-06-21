@@ -1,9 +1,6 @@
-
-
-AUTHOR          = '<your name>'  # use your name
-SITENAME        = 'title' # use title
-GITHUB_USERNAME = 'tactlabs' # use your username
-
+AUTHOR          = 'Varsha Ravi'  # use your name
+SITENAME        = 'My Python Notes'  # use title
+GITHUB_USERNAME = 'varsha2176'  # use your GitHub username
 
 # Blogroll
 LINKS = (
@@ -12,11 +9,11 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
-    ("GitHub", "https://github.com/<yourusername>/"),
-    ("LinkedIn", "<linkedin handle>"),
+    ("GitHub", "https://github.com/varsha2176/"),
+    ("LinkedIn", "https://www.linkedin.com/in/aruna-varsha-r-0827852a2"),
 )
 
-######## Advanced Settings (not recommended to to edited; take your own risk to touch the settings below) #############
+######## Advanced Settings (not recommended to be edited; take your own risk to touch the settings below) #############
 
 import os
 from git import Repo
@@ -39,7 +36,7 @@ else:
 
 OUTPUT_PATH     = 'docs'
 PATH            = "content"
-TIMEZONE        = 'America/Toronto'
+TIMEZONE        = 'Asia/Kolkata'
 DEFAULT_LANG    = 'en'
 
 # Feed generation is usually not desired when developing
@@ -62,4 +59,3 @@ ARTICLE_SAVE_AS = '{slug}.html'
 THEME               = 'themes/zurb-F5-basic'
 
 IGNORE_FILES        = [".*", "*.swp", "*~"]  # Ignore hidden files and temporary files
-
